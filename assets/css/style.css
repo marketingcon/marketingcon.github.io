@@ -2417,6 +2417,9 @@ input.header.header-color .navigation-header .buy-btn,
   color: #ffffff;
   background-color: #77b739;
 }
+.header .header-wrapper .navigation-header a li {
+  list-style: none;
+}
 .bg-low-poly,
 div.bg-low-poly,
 footer.bg-low-poly,
@@ -6604,7 +6607,7 @@ button[type="submit"] .loading {
     Footer
 ---------------------------------------------------------------------------- */
 .footer {
-  padding: 50px 0 0;
+  padding: 0;
   color: #ffffff;
   background-color: #262627;
 }
@@ -6965,6 +6968,9 @@ button[type="submit"] .loading {
 .hero-section {
   z-index: 1;
   overflow: hidden;
+}
+.hero-section .socials-nav li a .fa {
+  color: #6bb127;
 }
 .stat-section,
 .signup-section {
